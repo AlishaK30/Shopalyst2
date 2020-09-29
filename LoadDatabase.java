@@ -69,6 +69,7 @@ public class LoadDatabase implements LoadDbInterface{
 	            sqle.printStackTrace();
 	        }
 	}
+	//function to load data to database
 	public void loadDataToDB() {
 		
 		 try {
