@@ -204,7 +204,8 @@ public class LoadDatabase implements LoadDbInterface{
 	public static void main(String args[])
 	{
 		LoadDatabase load=new LoadDatabase();
-		//load.loadDataToDB();
+		
+		load.loadDataToDB();
 		
 		System.out.println("Total no of records:"+load.getRecordCount());
 		
